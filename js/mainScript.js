@@ -25,6 +25,13 @@ $(document).ready(function () {
         $('.right-bar-mobile .overlay').removeClass('active');
 
     })
+    $('.table-requests .check-all').on('change',function (){
+        if ($(this).is(":checked")){
+            $('.table-requests .form-check-input').prop('checked',true);
+        }else {
+            $('.table-requests .form-check-input').prop('checked',false);
+        }
+    });
     $(".togglePassword").click(function (e) {
         e.preventDefault();
         var type = $(this).siblings('.password').attr("type");

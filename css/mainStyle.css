@@ -449,6 +449,8 @@ body {
     border-radius: 10px;
     color: #46CC6B;
     font-size: 14px;
+    width: 100px;
+    display: inline-block;
 }
 
 .table-requests .table tr input[type=checkbox] {
